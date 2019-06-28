@@ -5,6 +5,6 @@ var USUARIOSCHEMA = {
   email:    String,
   fechaRegistro:   Date,
 }
-
+//
 const USUARIO = mongoose.model("usuario", USUARIOSCHEMA);
 module.exports = {model: USUARIO, schema: USUARIOSCHEMA};
